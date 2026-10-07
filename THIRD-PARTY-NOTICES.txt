@@ -1,0 +1,28 @@
+Kast – third-party notices
+============================
+
+Kast.exe is freeware (see LICENSE). It uses the following separate components,
+which are distributed next to it under their own licenses.
+
+mpv (libmpv-2.dll)
+------------------
+mpv is licensed under the GNU Lesser General Public License, version 2.1 or later
+(LGPL build, configured with -Dgpl=false).
+Source: https://github.com/mpv-player/mpv
+Build:  https://github.com/zhongfly/mpv-winbuild (mpv-dev-lgpl-x86_64)
+License text: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+
+FFmpeg (ffmpeg.exe, and the FFmpeg libraries inside libmpv-2.dll)
+-------------------------------------------------------------------
+FFmpeg is licensed under the GNU Lesser General Public License, version 3 or later
+(LGPL build, configured with --enable-version3 and without --enable-gpl).
+Source: https://ffmpeg.org/download.html
+Build:  https://github.com/zhongfly/mpv-winbuild (ffmpeg-lgpl-x86_64)
+License text: https://www.gnu.org/licenses/lgpl-3.0.html
+
+Kast loads libmpv-2.dll at run time and starts ffmpeg.exe as a separate process;
+it does not link either of them statically. You may replace both files with other
+compatible builds of the same libraries.
+
+Kast also contains Rust crates (Tauri, serde, mdns-sd, ureq, native-tls, winreg,
+windows-sys and their dependencies) under the MIT and/or Apache-2.0 licenses.
