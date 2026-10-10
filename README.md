@@ -1,5 +1,7 @@
 # Kast
 
+**English** | [Deutsch](README.de.md)
+
 A lean, portable video player for Windows that plays almost any format and **casts to Chromecast, DLNA and AirPlay** devices.
 
 ![Kast](docs/screenshot.png)
@@ -54,6 +56,7 @@ The ⚙ menu → *Settings*:
 
 - Language, theme
 - Resume, hardware decoding, show subtitles automatically, preferred audio and subtitle languages (default: English, then German)
+- *Prevent sleep while casting* – the TV streams from the PC, so sleep would stop playback; the screen may still turn off
 - Screenshot folder (default: `Pictures\Kast`)
 - Subtitle style
 - *Integration* – all off by default, Kast changes nothing outside its folder unless you switch them on: "Open with" for video files, desktop shortcut, start menu shortcut
@@ -73,4 +76,4 @@ Kast updates itself from the [releases of this repository](https://github.com/na
 Freeware – free to use, but **not for sale**. See [LICENSE](LICENSE).
 The included `libmpv-2.dll` (mpv) and `ffmpeg.exe` (FFmpeg) are separate LGPL components, see [LICENSE](LICENSE) and `THIRD-PARTY-NOTICES.txt`.
 
-© 2026 [Ali Naderi](https://github.com/naderi)
+© 2026 [Ali Naderi](https://github.com/naderi) · [digitalent.dev](https://digitalent.dev/en/)
