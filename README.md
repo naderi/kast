@@ -28,13 +28,15 @@ A lean, portable video player for Windows that plays almost any format and **cas
 ## Using it
 
 - **Open** a video with the button, by drag & drop, from the command line or (optionally) with "Open with" in Explorer
+- **Stop:** the ■ button next to play ends playback and returns to the start screen (the position is kept for resuming)
 - **Mouse:** click = pause, double-click = fullscreen, wheel = volume, drag the video to move the window
-- **Keys** (all changeable in the settings): Space pause · ←/→ 5 s (Shift: 1 s) · ↑/↓ volume · M sound on/off · F fullscreen · S subtitles on/off · V next subtitle track · A next audio track · Z/X subtitle delay · Ctrl+Plus/Minus speed (Ctrl+0 normal) · Ctrl+Shift+S screenshot · N/P next/previous · Ctrl+O open · Ctrl+R recent files · Ctrl+, settings
+- **Keys** (all changeable in the settings): Space pause · ←/→ 5 s (Shift: 1 s) · ↑/↓ volume · M sound on/off · F fullscreen · S subtitles on/off · V next subtitle track · A next audio track · Z/X subtitle delay · Ctrl+Plus/Minus speed (Ctrl+0 normal) · R rotate picture by 90° · Ctrl+Shift+S screenshot · N/P next/previous · Ctrl+O open · Ctrl+R recent files · Ctrl+, settings
 - The window keeps the video's aspect ratio, so there are no black bars; *Fill window (crop)* in the ⚙ menu fills it completely
+- *Rotate picture* (right-click menu or R) turns a video that is sideways or upside down, 90° per step, also on the TV; videos with rotation information (phone videos) are shown upright automatically
 
 ## Casting
 
-Click the cast button in the control bar at the bottom and pick a device. The video on the PC pauses, and the player controls – pause, seek, volume, audio track, subtitles, subtitle delay and style – now control the TV. Stopping continues on the PC where the TV left off.
+Click the cast button in the control bar at the bottom and pick a device. The video on the PC pauses, and the player controls – pause, seek, volume, audio track, subtitles, subtitle delay and style – now control the TV. Next/previous switches the file on the TV, and at the end of a video the next file of the folder follows. While casting, the stop button next to play turns into a cast symbol with a stop badge and ends casting; the PC continues where the TV left off.
 
 Kast streams the file from the PC over your local network:
 
@@ -69,6 +71,7 @@ Kast updates itself from the [releases of this repository](https://github.com/na
 - Once a day it looks for a new version in the background (can be switched off: *Check automatically (once a day)*). A new version lights an orange dot on the ⓘ button.
 - In the about window (ⓘ): *Check for updates* → *Download update* → *Restart & update*.
 - A download is only used if its signature (`.sig`) matches the key built into Kast; anything else is rejected. `settings.json` stays untouched.
+- The update replaces `Kast.exe` only. If a release brings newer `libmpv-2.dll` / `ffmpeg.exe`, the about window says so: download `Kast-x.y.z-win-x64.7z`, quit Kast and unpack it into the Kast folder, replacing the existing files.
 - Installed with Scoop, Kast only points to `scoop update kast`.
 
 ## License

@@ -28,13 +28,15 @@ Ein schlanker, portabler Videoplayer für Windows, der fast jedes Format abspiel
 ## Bedienung
 
 - **Öffnen** eines Videos per Button, Drag & Drop, Kommandozeile oder (optional) über „Öffnen mit“ im Explorer
+- **Stopp:** der ■-Knopf neben Wiedergabe beendet die Wiedergabe und kehrt zum Startbildschirm zurück (die Position bleibt zum Fortsetzen erhalten)
 - **Maus:** Klick = Pause, Doppelklick = Vollbild, Mausrad = Lautstärke, Video ziehen = Fenster verschieben
-- **Tasten** (alle in den Einstellungen änderbar): Leertaste Pause · ←/→ 5 s (Umschalt: 1 s) · ↑/↓ Lautstärke · M Ton an/aus · F Vollbild · S Untertitel an/aus · V nächste Untertitelspur · A nächste Tonspur · Z/X Untertitelverzögerung · Strg+Plus/Minus Geschwindigkeit (Strg+0 normal) · Strg+Umschalt+S Bildschirmfoto · N/P nächstes/vorheriges · Strg+O öffnen · Strg+R zuletzt geöffnet · Strg+, Einstellungen
+- **Tasten** (alle in den Einstellungen änderbar): Leertaste Pause · ←/→ 5 s (Umschalt: 1 s) · ↑/↓ Lautstärke · M Ton an/aus · F Vollbild · S Untertitel an/aus · V nächste Untertitelspur · A nächste Tonspur · Z/X Untertitelverzögerung · Strg+Plus/Minus Geschwindigkeit (Strg+0 normal) · R Bild um 90° drehen · Strg+Umschalt+S Bildschirmfoto · N/P nächstes/vorheriges · Strg+O öffnen · Strg+R zuletzt geöffnet · Strg+, Einstellungen
 - Das Fenster behält das Seitenverhältnis des Videos bei, es gibt also keine schwarzen Balken; *Fenster füllen (zuschneiden)* im ⚙-Menü füllt es vollständig aus
+- *Bild drehen* (Rechtsklick-Menü oder R) dreht ein seitlich liegendes oder auf dem Kopf stehendes Video um 90° pro Schritt, auch auf dem Fernseher; Videos mit Drehungsinformation (Handyvideos) werden automatisch aufrecht angezeigt
 
 ## Streamen
 
-Auf den Cast-Button in der Steuerleiste unten klicken und ein Gerät wählen. Das Video am PC pausiert, und die Bedienelemente des Players – Pause, Spulen, Lautstärke, Tonspur, Untertitel, Untertitelverzögerung und -stil – steuern jetzt den Fernseher. Beim Beenden geht es am PC dort weiter, wo der Fernseher aufgehört hat.
+Auf den Cast-Button in der Steuerleiste unten klicken und ein Gerät wählen. Das Video am PC pausiert, und die Bedienelemente des Players – Pause, Spulen, Lautstärke, Tonspur, Untertitel, Untertitelverzögerung und -stil – steuern jetzt den Fernseher. Weiter/Zurück wechselt die Datei auf dem Fernseher, und am Ende eines Videos folgt die nächste Datei aus dem Ordner. Beim Streamen wird der Stopp-Knopf neben Wiedergabe zu einem Cast-Symbol mit Stopp-Zeichen und beendet das Streamen; am PC geht es dort weiter, wo der Fernseher aufgehört hat.
 
 Kast streamt die Datei vom PC über das lokale Netzwerk:
 
@@ -69,6 +71,7 @@ Kast aktualisiert sich selbst aus den [Releases dieses Repositorys](https://gith
 - Einmal täglich sucht es im Hintergrund nach einer neuen Version (abschaltbar: *Automatisch suchen (einmal täglich)*). Eine neue Version zeigt einen orangen Punkt am ⓘ-Button.
 - Im Info-Fenster (ⓘ): *Nach Updates suchen* → *Update herunterladen* → *Neu starten & aktualisieren*.
 - Ein Download wird nur verwendet, wenn seine Signatur (`.sig`) zum in Kast eingebauten Schlüssel passt; alles andere wird abgelehnt. `settings.json` bleibt unangetastet.
+- Das Update ersetzt nur `Kast.exe`. Bringt ein Release neuere `libmpv-2.dll` / `ffmpeg.exe` mit, weist das Info-Fenster darauf hin: `Kast-x.y.z-win-x64.7z` herunterladen, Kast beenden und in den Kast-Ordner entpacken (vorhandene Dateien ersetzen).
 - Mit Scoop installiert, verweist Kast nur auf `scoop update kast`.
 
 ## Lizenz
