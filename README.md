@@ -79,4 +79,12 @@ Kast updates itself from the [releases of this repository](https://github.com/na
 Freeware – free to use, but **not for sale**. See [LICENSE](LICENSE).
 The included `libmpv-2.dll` (mpv) and `ffmpeg.exe` (FFmpeg) are separate LGPL components, see [LICENSE](LICENSE) and `THIRD-PARTY-NOTICES.txt`.
 
+## Support
+
+If Kast saves you time, you can support its development on Ko‑fi. ☕
+
+<a href='https://ko-fi.com/N7N123QIX0' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
+---
+
 © 2026 [Ali Naderi](https://github.com/naderi) · [digitalent.dev](https://digitalent.dev/en/)
