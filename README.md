@@ -30,7 +30,7 @@ A lean, portable video player for Windows that plays almost any format and **cas
 - **Open** a video with the button, by drag & drop, from the command line or (optionally) with "Open with" in Explorer
 - **Stop:** the ■ button next to play ends playback and returns to the start screen (the position is kept for resuming)
 - **Mouse:** click = pause, double-click = fullscreen, wheel = volume, drag the video to move the window
-- **Keys** (all changeable in the settings): Space pause · ←/→ 5 s (Shift: 1 s) · ↑/↓ volume · M sound on/off · F fullscreen · S subtitles on/off · V next subtitle track · A next audio track · Z/X subtitle delay · Ctrl+Plus/Minus speed (Ctrl+0 normal) · R rotate picture by 90° · Ctrl+Shift+S screenshot · N/P next/previous · Ctrl+O open · Ctrl+R recent files · Ctrl+, settings
+- **Keys** (all changeable in the settings): Space pause · ←/→ 5 s (Shift: 1 s) · ↑/↓ volume · M sound on/off · F fullscreen · S subtitles on/off · V next subtitle track · A next audio track · Z/X subtitle delay · Ctrl+Plus/Minus speed, step adjustable (Ctrl+0 normal) · R rotate picture by 90° · Ctrl+Shift+S screenshot · N/P next/previous · Ctrl+O open · Ctrl+R recent files · Ctrl+, settings
 - The window keeps the video's aspect ratio, so there are no black bars; *Fill window (crop)* in the ⚙ menu fills it completely
 - *Rotate picture* (right-click menu or R) turns a video that is sideways or upside down, 90° per step, also on the TV; videos with rotation information (phone videos) are shown upright automatically
 

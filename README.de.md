@@ -30,7 +30,7 @@ Ein schlanker, portabler Videoplayer für Windows, der fast jedes Format abspiel
 - **Öffnen** eines Videos per Button, Drag & Drop, Kommandozeile oder (optional) über „Öffnen mit“ im Explorer
 - **Stopp:** der ■-Knopf neben Wiedergabe beendet die Wiedergabe und kehrt zum Startbildschirm zurück (die Position bleibt zum Fortsetzen erhalten)
 - **Maus:** Klick = Pause, Doppelklick = Vollbild, Mausrad = Lautstärke, Video ziehen = Fenster verschieben
-- **Tasten** (alle in den Einstellungen änderbar): Leertaste Pause · ←/→ 5 s (Umschalt: 1 s) · ↑/↓ Lautstärke · M Ton an/aus · F Vollbild · S Untertitel an/aus · V nächste Untertitelspur · A nächste Tonspur · Z/X Untertitelverzögerung · Strg+Plus/Minus Geschwindigkeit (Strg+0 normal) · R Bild um 90° drehen · Strg+Umschalt+S Bildschirmfoto · N/P nächstes/vorheriges · Strg+O öffnen · Strg+R zuletzt geöffnet · Strg+, Einstellungen
+- **Tasten** (alle in den Einstellungen änderbar): Leertaste Pause · ←/→ 5 s (Umschalt: 1 s) · ↑/↓ Lautstärke · M Ton an/aus · F Vollbild · S Untertitel an/aus · V nächste Untertitelspur · A nächste Tonspur · Z/X Untertitelverzögerung · Strg+Plus/Minus Geschwindigkeit, Schrittweite einstellbar (Strg+0 normal) · R Bild um 90° drehen · Strg+Umschalt+S Bildschirmfoto · N/P nächstes/vorheriges · Strg+O öffnen · Strg+R zuletzt geöffnet · Strg+, Einstellungen
 - Das Fenster behält das Seitenverhältnis des Videos bei, es gibt also keine schwarzen Balken; *Fenster füllen (zuschneiden)* im ⚙-Menü füllt es vollständig aus
 - *Bild drehen* (Rechtsklick-Menü oder R) dreht ein seitlich liegendes oder auf dem Kopf stehendes Video um 90° pro Schritt, auch auf dem Fernseher; Videos mit Drehungsinformation (Handyvideos) werden automatisch aufrecht angezeigt
 
